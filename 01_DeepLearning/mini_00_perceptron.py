@@ -1,11 +1,8 @@
-import numpy as np
-
 def hard_limit(net):
     if net > 0:
         return 1
     else:
         return 0
-    
 
 def AND_gate(x1, x2):
     w1, w2, w3 = 1.0, 1.0, -1.5
